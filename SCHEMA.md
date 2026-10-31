@@ -190,3 +190,4 @@ Immutable audit log tracking all events and dynamic time extensions.
 
 **Indexes:**
 - `INDEX idx_activity_rfq_created (rfq_id, created_at DESC)`
+

@@ -120,3 +120,4 @@ sequenceDiagram
    - If an extension would push the close time beyond the hard cap, it is clipped exactly to `forced_close_time`.
 3. **Database Concurrency**:
    - Bid submission, re-ranking, and extension evaluation run within a single database transaction, preventing race conditions.
+
