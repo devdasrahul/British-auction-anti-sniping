@@ -114,9 +114,9 @@ sequenceDiagram
 ## 5. Anti-Sniping Guarantees & Edge Cases
 
 1. **Anti-Sniping Protection**:
-   - Submissions inside the final $X$ minutes automatically extend the clock by $Y$ minutes, allowing all participants time to re-evaluate their quotes.
+   - Submissions inside the final **X minutes** automatically extend the clock by **Y minutes**, allowing all participants time to re-evaluate their quotes.
 2. **Hard Deadline Cap**:
-   - $\text{bid\_close\_time} = \min(\text{proposed\_time}, \text{forced\_close\_time})$
+   - `bid_close_time = min(proposed_time, forced_close_time)`
    - If an extension would push the close time beyond the hard cap, it is clipped exactly to `forced_close_time`.
 3. **Database Concurrency**:
    - Bid submission, re-ranking, and extension evaluation run within a single database transaction, preventing race conditions.
