@@ -269,8 +269,7 @@ curl -X POST "http://localhost:5000/api/rfqs/<RFQ_ID>/bids" \
 
 ## ✅ Deliverables Checklist
 
-- [x] **Deliverable 1: High-Level Design (HLD) with Architecture Diagram** $\rightarrow$ See [`DELIVERABLES.md`](./DELIVERABLES.md)
-- [x] **Deliverable 2: Relational Database Schema Design** $\rightarrow$ See [`schema-design.md`](./schema-design.md)
-- [x] **Deliverable 3: Pure Python Backend Code** $\rightarrow$ Fully contained in `backend/`
-- [x] **Deliverable 4: Modern React Frontend Code** $\rightarrow$ Fully contained in `frontend/`
-- [x] **Video Script & Project Presentation Guide** $\rightarrow$ See [`scripts/VIDEO_SCRIPT.md`](./scripts/VIDEO_SCRIPT.md) and [`scripts/PROJECT_EXPLANATION.md`](./scripts/PROJECT_EXPLANATION.md)
+- [x] **Deliverable 1: High-Level Design (HLD) with Architecture Diagram** $\rightarrow$ See [`HLD.md`](./HLD.md)
+- [x] **Deliverable 2: Relational Database Schema Design** $\rightarrow$ See [`SCHEMA.md`](./SCHEMA.md)
+- [x] **Deliverable 3: Pure Python Backend Code** $\rightarrow$ Fully contained in [`backend/`](./backend)
+- [x] **Deliverable 4: Modern React Frontend Code** $\rightarrow$ Fully contained in [`frontend/`](./frontend)
