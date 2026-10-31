@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rfq-british-auction-backend"
+version = "1.0.0"
+description = "FastAPI British Auction RFQ System Backend"
+authors = [{ name = "GoComet Candidate" }]
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.28.0",
+    "sqlalchemy[asyncio]>=2.0.28",
+    "asyncpg>=0.29.0",
+    "alembic>=1.13.1",
+    "pydantic>=2.6.4",
+    "pydantic-settings>=2.2.1",
+    "python-jose[cryptography]>=3.3.0",
+    "passlib[bcrypt]>=1.7.4",
+    "bcrypt>=4.1.2",
+    "python-multipart>=0.0.9",
+    "apscheduler>=3.10.4",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+
